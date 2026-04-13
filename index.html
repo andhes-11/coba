@@ -1,75 +1,76 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Tugas Mulok - Kotak</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tugas Mulok</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #eef0f3;
-    }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
 
-    /* HEADER */
-    .header {
-      background-color: #2f66d0;
-      padding: 20px;
-      color: white;
-    }
+/* HEADER */
+.header {
+    background: linear-gradient(to right, #2c6df2, #3f8cff);
+    text-align: center;
+    padding: 40px 20px 60px;
+    color: white;
+}
 
-    .btn-kembali {
-      display: inline-block;
-      background: #e6e6e6;
-      color: #2f66d0;
-      padding: 10px 16px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
 
-    .title {
-      font-size: 26px;
-      font-weight: bold;
-    }
+.header h1 {
+    font-size: 22px;
+    margin: 0;
+}
 
-    /* CARD PUTIH */
-    .card {
-      margin: 25px;
-      padding: 25px;
-      background: white;
-      border-radius: 18px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
+/* CONTENT */
+.container {
+    padding: 20px;
+    margin-top: -30px;
+}
 
-    /* KOTAK HALO */
-    .kotak {
-      width: 120px;
-      height: 120px;
-      background: linear-gradient(to bottom right, #001aff, #0000cc);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 20px;
-      border-radius: 6px;
-    }
-  </style>
+/* BOX */
+.box {
+    background: #eaeaea;
+    padding: 18px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.dots {
+    letter-spacing: 4px;
+}
+</style>
+
 </head>
-
 <body>
 
-  <!-- HEADER -->
-  <div class="header">
-    <a href="tugas1.html" class="btn-kembali">← Kembali</a>
-    <div class="title">Materi 1 - Kotak</div>
-  </div>
+<div class="header">
+    <img src="https://www.shutterstock.com/image-illustration/tkj-original-monogram-logo-design-260nw-1649440348.jpg" class="avatar" alt="">
+    <h1>Tugas Andhes Prakoso XI-TKJ<br>Muatan Lokal</h1>
+</div>
 
-  <!-- CARD -->
-  <div class="card">
-    <div class="kotak">Halo</div>
-  </div>
+<div class="container">
+    <div class="box">Kotak Titik</div>
+    <div class="box dots">••••••••••</div>
+    <div class="box dots">••••••••••</div>
+    <div class="box dots">••••••••••</div>
+    <div class="box dots">••••••••••</div>
+</div>
 
 </body>
 </html>
